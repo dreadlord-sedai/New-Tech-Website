@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <style>
+        /* Your custom CSS styles go here */
+        body {
+            background-color: #e9e8e8;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #000000;
+            background-color: #243149;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .amazon-logo {
+            width: 150px;
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 20px;
+        }
+
+        .form-control {
+            margin-bottom: 15px;
+        }
+
+        .register-btn {
+            margin-top: 10px;
+        }
+
+        .or-divider {
+            margin: 15px 0;
+            text-align: center;
+            font-weight: bold;
+            color: #ffffff;
+        }
+
+        .social-btn-container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            color: #ffffff;
+        }
+
+        .social-btn {
+            width: 48%;
+            color: #e9e8e8;
+        }
+
+        .mt-3 {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <a href="index.html">
+            <img src="images/Black___White_Minimalist_Business_Logo__1_-removebg-preview.png" alt="Amazon Logo"
+                class="amazon-logo">
+        </a>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block register-btn">Create Account</button>
+        </form>
+        <p class="or-divider">OR</p>
+        <div class="social-btn-container">
+            <button class="btn btn-outline-secondary social-btn">Sign Up with Google</button>
+            <button class="btn btn-outline-secondary social-btn">Sign Up with Facebook</button>
+        </div>
+        <p class="mt-3 text-center">Already have an account? <a href="loginpage.html">Sign In</a></p>
+    </div>
+
+    <!-- Link to Bootstrap JS (requires Popper.js and Bootstrap JS) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

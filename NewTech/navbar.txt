@@ -1,0 +1,85 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <!-- All dropdown menu -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAll" role="button" data-bs-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          All
+        </a>
+        <!-- ALL Dropdown Menu -->
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownAll">
+
+          <li><a class="dropdown-item" href="laptops.html">Laptops</a></li>
+          <li><a class="dropdown-item" href="electronics.html">Electronics</a></li>
+          <li><a class="dropdown-item" href="Computers.html">Computers</a></li>
+          <li><a class="dropdown-item" href="#">Cameras</a></li>
+          <li><a class="dropdown-item" href="custombuilds.html">Custom Builds</a></li>
+          <li><a class="dropdown-item" href="#">Headphones</a></li>
+          <li><a class="dropdown-item" href="#">Mobile Phones</a></li>
+          <li><a class="dropdown-item" href="#">Gaming</a></li>
+          
+        </ul>
+      </li>
+    </ul>
+    <!--NewTech logo and other navigation elements -->
+    <a class="navbar-brand" href="index.html">
+      <img src="images/Black___White_Minimalist_Business_Logo__1_-removebg-preview.png" alt="NewTech Logo"
+        class="logo-img">
+    </a>
+    <!-- Search bar -->
+    <form class="form-inline my-2 my-lg-0">
+      <div class="input-group">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </div>
+      </div>
+    </form>
+    <!-- Cart icon and user account dropdown -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="cartpage.html">Cart</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Your Account
+        </a>
+        <!-- Dropdown Menu -->
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="loginpage.html">Login</a></li>
+          <li><a class="dropdown-item" href="registerpage.html">Create Account</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="Your_orders.html">Your Orders</a></li>
+          <li><a class="dropdown-item" href="wishlist.html">Your Wishlist</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="Account.html">Account Settings</a></li>
+          <li><a class="dropdown-item" href="loginpage.html">Logout</a></li>
+
+          <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="admin_panel.html">Admin Panel</a></li>
+          <li><a class="dropdown-item" href="admin_sighnin.html">Admin Sighn In</a></li>
+        </ul>
+  </div>
+</nav>
+
+<!-- Secondary Bar -->
+<nav class="secondary-navbar navbar navbar-dark mb-4">
+  <div class="container">
+    
+    <a class="navbar-brand" href="laptops.html">Laptops</a>
+    <a class="navbar-brand" href="Computers.html">Computers</a>
+    <a class="navbar-brand" href="electronics.html">Electronics</a>
+    <a class="navbar-brand" href="Best_sellers.html">Best sellers</a>
+    <a class="navbar-brand" href="custombuilds.html">Custom Builds</a>
+
+
+  </div>
+</nav>

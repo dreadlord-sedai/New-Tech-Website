@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="icon" type="image/png" href="images/favicon-32x32.png">
+  <!-- Link to Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .bcheckout-btn {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <!-- All dropdown menu -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAll" role="button" data-bs-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          All
+        </a>
+        <!-- ALL Dropdown Menu -->
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownAll">
+
+          <li><a class="dropdown-item" href="laptops.html">Laptops</a></li>
+          <li><a class="dropdown-item" href="electronics.html">Electronics</a></li>
+          <li><a class="dropdown-item" href="Computers.html">Computers</a></li>
+          <li><a class="dropdown-item" href="#">Cameras</a></li>
+          <li><a class="dropdown-item" href="custombuilds.html">Custom Builds</a></li>
+          <li><a class="dropdown-item" href="#">Headphones</a></li>
+          <li><a class="dropdown-item" href="#">Mobile Phones</a></li>
+          <li><a class="dropdown-item" href="#">Gaming</a></li>
+
+        </ul>
+      </li>
+    </ul>
+    <!--NewTech logo and other navigation elements -->
+    <a class="navbar-brand" href="index.html">
+      <img src="images/Black___White_Minimalist_Business_Logo__1_-removebg-preview.png" alt="NewTech Logo"
+        class="logo-img">
+    </a>
+    <!-- Search bar -->
+    <form class="form-inline my-2 my-lg-0">
+      <div class="input-group">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <div class="input-group-append">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </div>
+      </div>
+    </form>
+    <!-- Cart icon and user account dropdown -->
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="cartpage.html">Cart</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">
+          Your Account
+        </a>
+        <!-- Dropdown Menu -->
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="loginpage.html">Login</a></li>
+          <li><a class="dropdown-item" href="registerpage.html">Create Account</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="Your_orders.html">Your Orders</a></li>
+          <li><a class="dropdown-item" href="wishlist.html">Your Wishlist</a></li>
+          <li>
+            <hr class="dropdown-divider">
+          </li>
+          <li><a class="dropdown-item" href="Account.html">Account Settings</a></li>
+          <li><a class="dropdown-item" href="loginpage.html">Logout</a></li>
+
+          <hr class="dropdown-divider">
+      </li>
+      <li><a class="dropdown-item" href="admin_panel.html">Admin Panel</a></li>
+      <li><a class="dropdown-item" href="admin_sighnin.html">Admin Sighn In</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Secondary Bar -->
+<nav class="secondary-navbar navbar navbar-dark mb-4">
+  <div class="container">
+
+    <a class="navbar-brand" href="laptops.html">Laptops</a>
+    <a class="navbar-brand" href="Computers.html">Computers</a>
+    <a class="navbar-brand" href="electronics.html">Electronics</a>
+    <a class="navbar-brand" href="Best_sellers.html">Best sellers</a>
+    <a class="navbar-brand" href="custombuilds.html">Custom Builds</a>
+
+
+  </div>
+</nav>
+
+
+
+  <div class="container">
+    <h2>Your Shopping Cart</h2>
+
+    <!-- Example cart items -->
+    <div class="cart-item d-flex">
+      <img src="images/phone.jpg" alt="Product 1">
+      <div class="item-details">
+        <h5>Product 1</h5>
+        <p>Product description goes here.</p>
+        <p class="item-price">$25.99</p>
+        <span class="remove-btn">Remove</span>
+      </div>
+    </div>
+
+    <div class="cart-item d-flex">
+      <img src="images/airbuds.jpg" alt="Product 2">
+      <div class="item-details">
+        <h5>Product 2</h5>
+        <p>Product description goes here.</p>
+        <p class="item-price">$19.99</p>
+        <span class="remove-btn">Remove</span>
+      </div>
+    </div>
+    
+
+    <div class="cart-total">Total: $45.98</div>
+
+    <a href="#" class="btn btn-primary checkout-btn">Proceed to Checkout</a>
+  </div>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5>About Us</h5>
+        <p>Welcome to NewTech Ecommerce Store, your ultimate destination for all things tech! Step into the future
+          with our wide range of cutting-edge electronics and innovative gadgets that are sure to elevate your digital
+          lifestyle.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Contact Us</h5>
+        <p>Email: NewTech@gmail.com</p>
+        <p>Phone: +1 123 456 7890</p>
+      </div>
+      <div class="col-md-4">
+        <h5>Follow Us</h5>
+        <ul class="social-icons">
+          <li><a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#" class="twitter"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#" class="linkedin"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12 additional-text">
+        <p>@2023DahamiFabbio | @2023Newtech</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Link to Bootstrap JS (requires Popper.js and Bootstrap JS) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
