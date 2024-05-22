@@ -1,6 +1,8 @@
 # New-Tech-Website
 
-![New-Tech-Website](path-to-your-screenshot-image)
+![New-Tech-Website](one.png)
+![New-Tech-Website](three.png)
+![New-Tech-Website](two.png)
 
 ## Table of Contents
 - [Introduction](#introduction)
