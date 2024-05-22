@@ -1,6 +1,6 @@
 # New-Tech-Website
 
-![New-Tech-Website](one.png)
+![New-Tech-Website](one1.png)
 ![New-Tech-Website](three.png)
 ![New-Tech-Website](two.png)
 
